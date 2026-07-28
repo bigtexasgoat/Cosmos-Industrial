@@ -6,8 +6,8 @@ A static, mobile-friendly recruitment and new-member website for Cosmos Industri
 
 Open `index.html` in a text editor and replace every instance of:
 
-- `DISCORD_INVITE_URL` with your permanent Discord invitation
-- `BUYBACK_TUTORIAL_URL` with your buyback tutorial link
+- `https://discord.gg/ZgbHAa7UCq` with your permanent Discord invitation
+- `https://discord.com/channels/784689957204918283/1047599907210539038` with your buyback tutorial link
 
 ## Publish with GitHub Pages
 
