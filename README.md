@@ -1,36 +1,23 @@
-# Cosmos Industrial GitHub Pages Website
+# Cosmos Industrial Website
 
-A static, mobile-friendly recruitment and new-member website for Cosmos Industrial.
+A free static multi-page website designed for GitHub Pages.
 
-## Before publishing
+## Publish on GitHub Pages
 
-Open `index.html` in a text editor and replace every instance of:
+1. Create a public GitHub repository named `Cosmos-Industrial`.
+2. Upload every file and folder from this package to the repository root.
+3. Open **Settings > Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)` folder.
+6. Click **Save**.
+7. Wait a few minutes. GitHub will show the live URL.
 
-- `https://discord.gg/ZgbHAa7UCq` with your permanent Discord invitation
-- `https://discord.com/channels/784689957204918283/1047599907210539038` with your buyback tutorial link
+## Update the site later
 
-## Publish with GitHub Pages
+Upload the changed file, choose **Replace**, and commit the change. GitHub Pages republishes automatically.
 
-1. Sign in to GitHub and create a new **public** repository. A name such as `cosmos-industrial` works well.
-2. Upload `index.html`, the `assets` folder, and this `README.md` to the repository root.
-3. Open the repository's **Settings**.
-4. Select **Pages** under **Code and automation**.
-5. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-6. Select the `main` branch and the `/ (root)` folder, then save.
-7. GitHub will display the website address on the Pages settings screen after deployment.
+## Main links currently configured
 
-A project repository named `cosmos-industrial` normally publishes at:
-
-`https://YOUR-USERNAME.github.io/cosmos-industrial/`
-
-A repository named exactly `YOUR-USERNAME.github.io` publishes at:
-
-`https://YOUR-USERNAME.github.io/`
-
-## Editing the website
-
-- Main content: `index.html`
-- Colors and layout: `assets/styles.css`
-- Mobile menu: `assets/script.js`
-
-Checkboxes in the quick-start guide are stored only until the visitor refreshes the page.
+- Discord: https://discord.gg/ZgbHAa7UCq
+- SeAT: https://seat.cosmosorigins.org/
+- Alternative Buyback: https://jitarun.com/
