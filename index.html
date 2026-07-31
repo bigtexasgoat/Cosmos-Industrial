@@ -3,213 +3,195 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Cosmos Industrial is a relaxed EVE Online high-security corporation focused on mining, manufacturing, logistics, and helping new and returning pilots thrive.">
-  <meta name="theme-color" content="#07121f">
-  <title>Cosmos Industrial | EVE Online Highsec Corporation</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script defer src="assets/script.js"></script>
+  <meta name="description" content="Cosmos Industrial is a relaxed EVE Online high-security corporation focused on mining, industry, logistics, learning, and optional nullsec progression.">
+  <meta name="theme-color" content="#0b0b0d">
+  <title>Cosmos Industrial | EVE Online Corporation</title>
+  <link rel="icon" href="assets/image1.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="stars" aria-hidden="true"></div>
-  <a class="skip-link" href="#main">Skip to content</a>
-
+  <div class="space" aria-hidden="true"></div>
   <header class="site-header" id="top">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top" aria-label="Cosmos Industrial home">
-        <span class="brand-mark">CI</span>
-        <span><strong>COSMOS</strong><small>INDUSTRIAL</small></span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
-      <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#quick-start">Start Here</a>
-        <a href="#services">Services</a>
-        <a href="#buyback">Buyback</a>
-        <a href="#faq">FAQ</a>
-        <a class="button button-small" href="DISCORD_INVITE_URL">Join Discord</a>
-      </nav>
-    </div>
+    <a class="brand" href="#top" aria-label="Cosmos Industrial home">
+      <img src="assets/image1.png" alt="Cosmos Industrial corporation emblem">
+      <span><strong>Cosmos</strong> Industrial</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#operations">Operations</a>
+      <a href="#new-pilots">New Pilots</a>
+      <a href="#faq">FAQ</a>
+      <a class="button small" href="https://discord.gg/ZgbHAa7UCq" target="_blank" rel="noreferrer">Join Discord</a>
+    </nav>
   </header>
 
-  <main id="main">
-    <section class="hero section">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">EVE ONLINE • HIGH SECURITY SPACE</p>
-          <h1>Build your future among the stars.</h1>
-          <p class="hero-copy">Cosmos Industrial is a relaxed highsec corporation helping new, returning, and experienced pilots make ISK, learn EVE, and enjoy New Eden together.</p>
-          <div class="actions">
-            <a class="button" href="DISCORD_INVITE_URL">Join Our Discord</a>
-            <a class="button button-secondary" href="#quick-start">New Member Guide</a>
-          </div>
-          <div class="hero-points">
-            <span>No mandatory fleets</span><span>No activity quotas</span><span>Real life comes first</span>
-          </div>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Highsec Industry • Mining • Logistics • Community</p>
+        <h1>Build your future among the stars.</h1>
+        <p class="lede">Cosmos Industrial is a relaxed EVE Online corporation helping new, returning, and experienced pilots make ISK, learn the game, and enjoy New Eden together.</p>
+        <div class="hero-actions">
+          <a class="button" href="https://discord.gg/ZgbHAa7UCq" target="_blank" rel="noreferrer">Join Our Discord</a>
+          <a class="button ghost" href="#new-pilots">Start Here</a>
         </div>
-        <aside class="hero-panel glass">
-          <p class="panel-label">CORPORATION STATUS</p>
-          <div class="status-row"><span>Operations</span><strong class="online">ACTIVE</strong></div>
-          <div class="status-row"><span>Security</span><strong>HIGHSEC</strong></div>
-          <div class="status-row"><span>Blueprint Library</span><strong>420+ BPOs</strong></div>
-          <div class="status-row"><span>Nullsec Progression</span><strong>OPTIONAL</strong></div>
-          <a class="text-link" href="https://seat.cosmosorigins.org/">Authenticate with SeAT →</a>
-        </aside>
+        <div class="hero-stats" aria-label="Corporation highlights">
+          <div><strong>420+</strong><span>Blueprint Originals</span></div>
+          <div><strong>13</strong><span>Moon Drills</span></div>
+          <div><strong>0</strong><span>Mandatory Fleets</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 720 520" role="img">
+          <defs>
+            <radialGradient id="planet" cx="35%" cy="28%"><stop offset="0" stop-color="#fff6bf"/><stop offset=".35" stop-color="#c99b25"/><stop offset="1" stop-color="#241600"/></radialGradient>
+            <linearGradient id="ring" x1="0" x2="1"><stop stop-color="#fff" stop-opacity=".15"/><stop offset=".5" stop-color="#d6aa35"/><stop offset="1" stop-color="#fff" stop-opacity=".05"/></linearGradient>
+          </defs>
+          <ellipse cx="390" cy="300" rx="250" ry="78" fill="none" stroke="url(#ring)" stroke-width="14" transform="rotate(-13 390 300)"/>
+          <circle cx="400" cy="285" r="135" fill="url(#planet)"/>
+          <path d="M112 355 L278 286 L330 304 L286 338 L347 367 L314 393 L248 355 L151 382Z" fill="#e9e9e9" stroke="#7a6020" stroke-width="5"/>
+          <path d="M248 355 L302 322 L286 338 L347 367 L314 393Z" fill="#8d8d8d"/>
+          <circle cx="119" cy="126" r="3" fill="#fff"/><circle cx="624" cy="94" r="4" fill="#d9b24f"/><circle cx="603" cy="412" r="2" fill="#fff"/>
+        </svg>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="container two-column">
-        <div>
-          <p class="eyebrow">WHO WE ARE</p>
-          <h2>A corporation built for real people.</h2>
-        </div>
-        <div class="prose">
-          <p>We believe EVE is better when players have room to learn, build, and play at their own pace. Whether you mine moons, manufacture ships, move freight, train for PvP, or simply relax with other pilots, you have a place here.</p>
-          <p><strong>Our philosophy is simple:</strong> real life comes first. There are no mandatory fleets, attendance requirements, or activity quotas.</p>
-        </div>
+    <section class="ticker" aria-label="Corporation philosophy">
+      <span>REAL LIFE COMES FIRST</span><span>NO ACTIVITY QUOTAS</span><span>NO ATTENDANCE REQUIREMENTS</span><span>PLAY WHEN YOU CAN</span><span>HAVE FUN</span>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="eyebrow">About the corporation</p>
+        <h2>A place to learn, earn, and belong.</h2>
+        <p>Founded on September 19, 2020, Cosmos Industrial operates primarily in high-security space as part of the Cosmos Origins alliance. Our focus is practical: help members develop reliable income streams, learn industry systems, and find people they enjoy flying with.</p>
+        <p>New players can ask beginner questions without judgment. Veterans can use our infrastructure, blueprint library, buyback program, and logistics network. Nullsec progression through Cosmos Collective is available, but never required.</p>
+      </div>
+      <aside class="quote-card">
+        <img src="assets/image1.png" alt="" aria-hidden="true">
+        <blockquote>“Fly safe, ask questions, and most importantly—have fun.”</blockquote>
+        <p>Whether you mine, build, haul, PvP, or simply relax with fellow pilots, there is room for you here.</p>
+      </aside>
+    </section>
+
+    <section id="services" class="section dark-panel">
+      <div class="section-heading">
+        <div><p class="eyebrow">What we offer</p><h2>Industrial support at every stage.</h2></div>
+        <p>From your first Venture to your next major manufacturing project, Cosmos offers the tools and people to help you progress.</p>
+      </div>
+      <div class="card-grid">
+        <article class="service-card"><span class="icon">◈</span><h3>Mining</h3><p>Moon, ice, ore, gas, and anomaly fleets across alliance operations.</p></article>
+        <article class="service-card"><span class="icon">⌬</span><h3>Industry</h3><p>Manufacturing, research, invention, and specialized structure bonuses.</p></article>
+        <article class="service-card"><span class="icon">▧</span><h3>Blueprint Library</h3><p>More than 420 corporation BPOs available for member copy jobs.</p></article>
+        <article class="service-card"><span class="icon">◫</span><h3>Buyback</h3><p>Optional corporation projects for fast conversion of resources into ISK.</p></article>
+        <article class="service-card"><span class="icon">➤</span><h3>Logistics</h3><p>Highsec, lowsec, nullsec, jump freighter, and Black Ops hauling support.</p></article>
+        <article class="service-card"><span class="icon">✦</span><h3>Progression</h3><p>PvP training and an optional route into Cosmos Collective in nullsec.</p></article>
       </div>
     </section>
 
-    <section id="quick-start" class="section section-tinted">
-      <div class="container">
-        <p class="eyebrow">NEW MEMBER QUICK START</p>
-        <h2>Complete these first.</h2>
-        <div class="checklist-grid">
-          <label><input type="checkbox"> <span>Join the corporation Discord</span></label>
-          <label><input type="checkbox"> <span>Post your IGN in #public-chat</span></label>
-          <label><input type="checkbox"> <span>Receive your Discord roles</span></label>
-          <label><input type="checkbox"> <span>Authenticate on SeAT</span></label>
-          <label><input type="checkbox"> <span>Join the Moon Calendar</span></label>
-          <label><input type="checkbox"> <span>Bookmark the Buyback channel</span></label>
-          <label><input type="checkbox"> <span>Read the corporation rules</span></label>
-          <label><input type="checkbox"> <span>Ask questions—we are happy to help</span></label>
-        </div>
+    <section id="operations" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">Member operations</p><h2>Explore the corporation.</h2></div>
+        <p>Use the tabs to jump between core services, locations, and policies.</p>
       </div>
-    </section>
-
-    <section id="services" class="section">
-      <div class="container">
-        <p class="eyebrow">CORPORATION SERVICES</p>
-        <h2>Everything you need to grow.</h2>
-        <div class="card-grid">
-          <article class="card"><span class="icon">◈</span><h3>Mining</h3><p>Moon mining, ice mining, and ore operations across friendly highsec space.</p></article>
-          <article class="card"><span class="icon">⚙</span><h3>Industry</h3><p>Manufacturing, research, invention, reprocessing, and clone services.</p></article>
-          <article class="card"><span class="icon">▣</span><h3>Blueprint Library</h3><p>Access more than 420 Blueprint Originals by creating corporation-owned copies.</p></article>
-          <article class="card"><span class="icon">◇</span><h3>Buyback</h3><p>Sell ore, ice, fuel blocks, PI, and red loot through Corporation Projects.</p></article>
-          <article class="card"><span class="icon">⇄</span><h3>Logistics</h3><p>Highsec, lowsec, nullsec, jump freighter, and Black Ops hauling support.</p></article>
-          <article class="card"><span class="icon">✦</span><h3>PvP Training</h3><p>Learn combat fundamentals without giving up your highsec industrial home.</p></article>
+      <div class="tabs" data-tabs>
+        <div class="tab-list" role="tablist" aria-label="Corporation operations">
+          <button role="tab" aria-selected="true" aria-controls="panel-mining" id="tab-mining">Mining</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-structures" id="tab-structures">Structures</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-blueprints" id="tab-blueprints">Blueprints</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-buyback" id="tab-buyback">Buyback</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-logistics" id="tab-logistics">Logistics</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-alliances" id="tab-alliances">Alliances</button>
         </div>
-      </div>
-    </section>
 
-    <section class="section section-tinted">
-      <div class="container split-cards">
-        <article class="feature-card">
-          <p class="eyebrow">MINING</p><h2>Mine corporation moons.</h2>
-          <p>Members may mine any moon owned by Cosmos Industrial, Cosmos Origins, or Cosmos Collective.</p>
-          <div class="metric"><strong>5%</strong><span>R4 moon tax, or equivalent compressed value</span></div>
-          <p class="muted">Taxes help fund structures and corporation services.</p>
-        </article>
-        <article class="feature-card">
-          <p class="eyebrow">BLUEPRINT LIBRARY</p><h2>Create copies from 420+ BPOs.</h2>
-          <ol>
-            <li>Assemble and rename a Station Container.</li>
-            <li>Place it in the Input/Output Hangar.</li>
-            <li>Open Industry and select the BPO.</li>
-            <li>Set your container as output.</li>
-            <li>Choose “Owned by Corporation” and start the copy job.</li>
-          </ol>
-        </article>
-      </div>
-    </section>
-
-    <section id="buyback" class="section">
-      <div class="container buyback-grid">
-        <div>
-          <p class="eyebrow">BUYBACK PROGRAM</p>
-          <h2>Fast ISK. No market hauling.</h2>
-          <p class="prose">Sell directly through Corporation Projects. Participation is completely optional, and you may always sell elsewhere. Program profits support structures, giveaways, events, and future services.</p>
-          <a class="button button-secondary" href="BUYBACK_TUTORIAL_URL">View Buyback Tutorial</a>
+        <div class="tab-panel" id="panel-mining" role="tabpanel" aria-labelledby="tab-mining">
+          <div><h3>Moon mining and fleet activity</h3><p>Members may mine moons owned by Cosmos Industrial, Cosmos Origins, Cosmos Collective, Cosmos Phoenix Reborn, and Cosmos Research.</p><div class="notice"><strong>Moon tax:</strong> 5% of mined moon ore, or equivalent compressed value, calculated using Janice. Taxes support structures, fuel, services, and events.</div></div>
+          <div><h4>Current moon locations</h4><ul class="compact two-col"><li>Shedoo - Serpens II</li><li>Shedoo - Orion II</li><li>Shedoo - Onseepkans</li><li>Shedoo - Lyra</li><li>Shedoo - Ezri II</li><li>Shedoo - Ezri I</li><li>Shedoo - Eridanis I</li><li>Shedoo - Aquarius</li><li>Fera - Ashen Aspire I</li><li>Ihal - Sagittarius A</li><li>Ihal - Gemini</li><li>Ihal - Gargantua</li><li>Ihal - Cygnus</li></ul></div>
         </div>
-        <div class="rate-table glass" role="table" aria-label="Buyback rates">
-          <div class="rate-head" role="row"><span>ITEM</span><span>RATE</span></div>
-          <div role="row"><span>Ore</span><strong>90% Jita Buy</strong></div>
-          <div role="row"><span>Ice</span><strong>90%</strong></div>
-          <div role="row"><span>Fuel Blocks</span><strong>90%</strong></div>
-          <div role="row"><span>Planetary Industry</span><strong>90%</strong></div>
-          <div role="row"><span>Red Loot</span><strong>80%</strong></div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section section-tinted">
-      <div class="container two-column">
-        <div><p class="eyebrow">LOGISTICS</p><h2>Need something moved?</h2></div>
-        <div class="prose"><p>Our Logistics Squadron supports highsec freight, lowsec freight, nullsec freight, jump freighters, and Black Ops logistics.</p><p>Create your courier contract and ping <strong>@Logistics</strong> in Discord.</p></div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container leadership-grid">
-        <div>
-          <p class="eyebrow">LEADERSHIP</p><h2>People you can contact.</h2>
-          <div class="leader-list">
-            <div><span>CEO</span><strong>Thiranoyama</strong></div>
-            <div><span>CEO Alt</span><strong>Jnagos</strong></div>
-            <div><span>Recruiter</span><strong>Midnight Stargazer</strong></div>
-            <div><span>Recruiter</span><strong>Izaura Kench</strong></div>
-          </div>
+        <div class="tab-panel" id="panel-structures" role="tabpanel" aria-labelledby="tab-structures" hidden>
+          <div><h3>Industry infrastructure</h3><p>Cosmos structures provide manufacturing, research, invention, reprocessing, clone, and moon extraction services.</p></div>
+          <div class="mini-grid"><article><h4>Shedoo - Leo II</h4><p>Raitaru: manufacturing, research, invention, medium T1 ship ME, advanced small ship ME, and advanced component ME.</p></article><article><h4>Shedoo - Eridanis I</h4><p>Athanor: asteroid ore and ice reprocessing bonuses.</p></article><article><h4>Shedoo - Crux II</h4><p>Astrahus: clone bay services.</p></article><article><h4>Fera - Ashen Aspire I</h4><p>Athanor: moon drilling stability bonuses and extended asteroid lifetime.</p></article></div>
         </div>
-        <div>
-          <p class="eyebrow">STANDINGS</p><h2>Know your blues.</h2>
-          <div class="standing dark-blue"><span></span><div><strong>Dark Blue</strong><p>Alliance members. Safe.</p></div></div>
-          <div class="standing light-blue"><span></span><div><strong>Light Blue</strong><p>Friendly organizations. Ask before engaging if unsure.</p></div></div>
+
+        <div class="tab-panel" id="panel-blueprints" role="tabpanel" aria-labelledby="tab-blueprints" hidden>
+          <div><h3>420+ Blueprint Originals</h3><p>Corporation BPOs are available at Shedoo - Leo II. Members create copies rather than removing originals.</p></div>
+          <ol class="steps"><li>Assemble a station or secure container in your hangar.</li><li>Rename the container with your character name.</li><li>Move it to the Input/Output hangar.</li><li>In Industry, select the corporation BPO input and your container as output.</li><li>Filter to corporation-owned blueprints, choose copy quantity, and start the job.</li><li>Deliver the job when complete and retrieve copies from your container.</li></ol>
+        </div>
+
+        <div class="tab-panel" id="panel-buyback" role="tabpanel" aria-labelledby="tab-buyback" hidden>
+          <div><h3>Fast, optional ISK</h3><p>Sell through Corporation Projects when convenience matters. You are always free to sell or use your resources elsewhere.</p></div>
+          <div class="rate-table" role="table" aria-label="Buyback rates"><div role="row"><strong role="columnheader">Item</strong><strong role="columnheader">Rate</strong></div><div role="row"><span>Ore</span><span>90% Jita Buy</span></div><div role="row"><span>Ice</span><span>90%</span></div><div role="row"><span>Fuel Blocks</span><span>90%</span></div><div role="row"><span>Planetary Interaction</span><span>90%</span></div><div role="row"><span>Red Loot</span><span>80%</span></div></div>
+        </div>
+
+        <div class="tab-panel" id="panel-logistics" role="tabpanel" aria-labelledby="tab-logistics" hidden>
+          <div><h3>Move it safely</h3><p>Create a courier contract and ping <strong>@Logistics</strong>. Fees may be waived for new members depending on location and volume moving to corporate headquarters.</p></div>
+          <div class="check-grid"><span>✓ Highsec Freight</span><span>✓ Lowsec Freight</span><span>✓ Nullsec Freight</span><span>✓ Jump Freighter</span><span>✓ Black Ops</span></div>
+        </div>
+
+        <div class="tab-panel" id="panel-alliances" role="tabpanel" aria-labelledby="tab-alliances" hidden>
+          <div><h3>One family, two regions</h3><p>Cosmos Origins operates in highsec, while Cosmos Collective participates in nullsec through Goonswarm Federation. The groups are separate operationally but connected politically.</p></div>
+          <div class="mini-grid"><article><h4>Highsec: Cosmos Origins</h4><p>Cosmos Industrial, Cosmos Phoenix Reborn, Cosmos Research Inc., Cosmos Horizons, and Cosmos Holdings.</p></article><article><h4>Nullsec: Cosmos Collective</h4><p>Optional progression for pilots ready to take the next step into larger alliance warfare and nullsec industry.</p></article></div>
         </div>
       </div>
     </section>
 
-    <section class="section section-tinted">
-      <div class="container two-column">
-        <div><p class="eyebrow">NULLSEC PROGRESSION</p><h2>Your next chapter is optional.</h2></div>
-        <div class="prose"><p>Many members eventually move into our nullsec corporation, but there is never any pressure to do so. Stay in highsec as long as you like.</p></div>
+    <section id="new-pilots" class="section onboarding">
+      <div class="section-heading"><div><p class="eyebrow">New member quick start</p><h2>Dock up. Get connected. Start flying.</h2></div></div>
+      <div class="onboarding-grid">
+        <div class="checklist-card">
+          <label><input type="checkbox"> Join the Corporation Discord</label>
+          <label><input type="checkbox"> Post your in-game name in <strong>#public-chat</strong></label>
+          <label><input type="checkbox"> Receive your Discord roles</label>
+          <label><input type="checkbox"> Authenticate on SeAT</label>
+          <label><input type="checkbox"> Read the corporation rules</label>
+          <label><input type="checkbox"> Ask questions and meet the team</label>
+          <p class="saved-note">Checklist progress is saved on this device.</p>
+        </div>
+        <div class="rules-card">
+          <h3>Two rules matter most</h3>
+          <article><span>01</span><div><h4>Do not be a piece of garbage.</h4><p>Treat people with respect. Racism, sexism, homophobia, harassment, political arguments, and toxic behavior are not tolerated.</p></div></article>
+          <article><span>02</span><div><h4>Real life comes first.</h4><p>Life always comes before EVE. Nobody is punished for taking time away.</p></div></article>
+        </div>
+      </div>
+      <div class="link-cards">
+        <a href="https://discord.gg/ZgbHAa7UCq" target="_blank" rel="noreferrer"><span>Discord</span><strong>Join the community →</strong></a>
+        <a href="https://seat.cosmosorigins.org/" target="_blank" rel="noreferrer"><span>SeAT</span><strong>Authenticate characters →</strong></a>
+        <a href="https://jitarun.com/" target="_blank" rel="noreferrer"><span>Alternative Buyback</span><strong>Visit JitaRun →</strong></a>
       </div>
     </section>
 
-    <section id="rules" class="section">
-      <div class="container rules-grid">
-        <article class="rule-card"><span>01</span><h3>Do not be a piece of garbage.</h3><p>Treat people with respect. Racism, sexism, homophobia, harassment, political arguments, and toxic behavior are not welcome.</p></article>
-        <article class="rule-card"><span>02</span><h3>Real life comes first.</h3><p>Life always comes before EVE. Nobody will be punished for taking time away.</p></article>
+    <section class="section leadership">
+      <div><p class="eyebrow">Leadership</p><h2>People you can contact.</h2></div>
+      <div class="leader-grid"><article><span>CEO</span><h3>Thiranoyama</h3></article><article><span>Recruiter</span><h3>Izaura Kench</h3></article><article><span>Recruiter</span><h3>Midnight Stargazer</h3></article></div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div><p class="eyebrow">Frequently asked questions</p><h2>Answers before you undock.</h2></div>
+      <div class="accordion">
+        <details><summary>Is participation mandatory?</summary><p>No. There are no mandatory fleets, attendance requirements, or activity quotas.</p></details>
+        <details><summary>Do I have to use the buyback program?</summary><p>No. It is completely optional.</p></details>
+        <details><summary>Can I borrow blueprints?</summary><p>Use corporation originals to create blueprint copies for your projects.</p></details>
+        <details><summary>Can I ask beginner questions?</summary><p>Absolutely. Helping new and returning pilots is one of the corporation's core goals.</p></details>
+        <details><summary>Is nullsec required?</summary><p>No. Stay in highsec as long as you like. Cosmos Collective is an optional progression path.</p></details>
+        <details><summary>Who is friendly?</summary><p>Corporation members are green, alliance members are dark blue, and friendly organizations are light blue. Agreements can vary by region, so ask before engaging.</p></details>
       </div>
     </section>
 
-    <section id="faq" class="section section-tinted">
-      <div class="container narrow">
-        <p class="eyebrow">FREQUENTLY ASKED QUESTIONS</p><h2>Common questions from new pilots.</h2>
-        <details><summary>Is participation mandatory?</summary><p>No. Play when you can and participate in the activities you enjoy.</p></details>
-        <details><summary>Do I have to use Buyback?</summary><p>No. The program is optional, and you may sell your items anywhere.</p></details>
-        <details><summary>Do I have to attend fleets?</summary><p>No. There are no mandatory fleets or attendance requirements.</p></details>
-        <details><summary>Can I borrow blueprints?</summary><p>You can use the corporation library to create blueprint copies for your projects.</p></details>
-        <details><summary>Can I ask beginner questions?</summary><p>Absolutely. Helping new and returning players is one of our primary goals.</p></details>
-      </div>
-    </section>
-
-    <section class="section cta-section">
-      <div class="container cta glass">
-        <div><p class="eyebrow">READY TO UNDOCK?</p><h2>Find your place in Cosmos Industrial.</h2><p>Mine, build, haul, fight, or relax with fellow pilots. We are glad to have you with us.</p></div>
-        <div class="actions"><a class="button" href="DISCORD_INVITE_URL">Join Discord</a><a class="button button-secondary" href="https://seat.cosmosorigins.org/">Open SeAT</a></div>
-      </div>
+    <section class="cta">
+      <img src="assets/image1.png" alt="Cosmos Industrial emblem">
+      <div><p class="eyebrow">Ready to launch?</p><h2>Your next chapter in New Eden starts here.</h2><p>Join Discord, introduce your pilot, and let us know what you want to build.</p></div>
+      <a class="button" href="https://discord.gg/ZgbHAa7UCq" target="_blank" rel="noreferrer">Join Cosmos Industrial</a>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><strong>COSMOS INDUSTRIAL</strong><p>Fly safe. Ask questions. Have fun.</p></div>
-      <div class="footer-links"><a href="DISCORD_INVITE_URL">Discord</a><a href="https://seat.cosmosorigins.org/">SeAT</a><a href="https://highsec.evebuyback.com/">Highsec Buyback</a></div>
-    </div>
-    <div class="container legal">Cosmos Industrial is a player organization and is not affiliated with CCP Games. EVE Online and all related marks are the property of CCP hf.</div>
+  <footer>
+    <div class="footer-brand"><img src="assets/image1.png" alt=""><span>Cosmos Industrial</span></div>
+    <p>Independent EVE Online player corporation website. EVE Online and all related trademarks are the property of CCP hf.</p>
+    <a href="#top">Back to top ↑</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
