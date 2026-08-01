@@ -1,23 +1,12 @@
 # Cosmos Industrial Website
 
-A free static multi-page website designed for GitHub Pages.
+A dark gold, white, and black multi-page GitHub Pages website containing the complete content of the supplied Cosmos Industrial New Member Quick Start Guide.
 
-## Publish on GitHub Pages
+## Publish
 
-1. Create a public GitHub repository named `Cosmos-Industrial`.
-2. Upload every file and folder from this package to the repository root.
-3. Open **Settings > Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder.
-6. Click **Save**.
-7. Wait a few minutes. GitHub will show the live URL.
+1. Upload every file and the entire `assets` folder to the root of the GitHub repository.
+2. Open **Settings > Pages**.
+3. Select **Deploy from a branch**, `main`, and `/(root)`.
+4. Save and wait for GitHub Pages to publish.
 
-## Update the site later
-
-Upload the changed file, choose **Replace**, and commit the change. GitHub Pages republishes automatically.
-
-## Main links currently configured
-
-- Discord: https://discord.gg/ZgbHAa7UCq
-- SeAT: https://seat.cosmosorigins.org/
-- Alternative Buyback: https://jitarun.com/
+Do not upload only the ZIP file. Extract it first, then upload its contents.
